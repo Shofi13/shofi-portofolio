@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyek — Shofi Athifah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">Shofi Athifah</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Beranda</a></li>
+    <li><a href="tentang.html">Tentang</a></li>
+    <li><a href="portofolio.html">Proyek</a></li>
+    <li><a href="kontak.html">Kontak</a></li>
+  </ul>
+</nav>
+
+<div class="filter-bar" style="padding-top: 90px; margin-top: 0;">
+  <button class="filter-btn on" data-cat="all">Semua</button>
+  <button class="filter-btn" data-cat="webdev">Web Dev</button>
+  <button class="filter-btn" data-cat="uiux">UI/UX</button>
+  <button class="filter-btn" data-cat="iot">IoT</button>
+</div>
+
+<div class="proj-list">
+
+  <div class="proj reveal" data-cat="webdev">
+    <img class="proj-thumb" src="sdi.png" alt="Sistem Absensi" onerror="this.style.minHeight='120px'">
+    <div class="proj-meta">
+      <p class="proj-cat">Web Development</p>
+      <h2 class="proj-name">Sistem Absensi &amp; Pembayaran Sekolah</h2>
+      <p class="proj-desc">Aplikasi web terintegrasi untuk absensi guru, dan pemabayaran siswa. Dioperasikan oleh admin sekolah jadi jika ada pembayaran bisa menemui admin sekolah atau wali kelas.</p>
+      <div class="proj-tags">
+        <span class="proj-tag">PHP</span>
+        <span class="proj-tag">Laravel</span>
+        <span class="proj-tag">MySQL</span>
+        <span class="proj-tag">Bootstrap</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj reveal" data-cat="webdev">
+    <img class="proj-thumb" src="apartement.png" alt="Sistem Apartemen" onerror="this.style.minHeight='120px'">
+    <div class="proj-meta">
+      <p class="proj-cat">Web Development</p>
+      <h2 class="proj-name">Sistem Manajemen Apartemen</h2>
+      <p class="proj-desc">Aplikasi web untuk pengelolaan unit apartemen — data penghuni, pembayaran sewa, pengaduan fasilitas, dan laporan bulanan untuk manajemen gedung.</p>
+      <div class="proj-tags">
+        <span class="proj-tag">PHP</span>
+        <span class="proj-tag">MySQL</span>
+        <span class="proj-tag">Laravel</span>
+        <span class="proj-tag">Bootstrap</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj reveal" data-cat="iot">
+    <img class="proj-thumb" src="IoT.jpeg" alt="IoT" onerror="this.style.minHeight='120px'">
+    <div class="proj-meta">
+      <p class="proj-cat">Internet of Things</p>
+      <h2 class="proj-name">Proyek IoT — Monitoring Sensor</h2>
+      <p class="proj-desc">Sistem IoT dengan ESP32 untuk mengetahui adanya tamu saat tidak mendengar bel. Jadi ketika bel ditekan, sistem akan mengirim notifikasi ke Telegram.</p>
+      <div class="proj-tags">
+        <span class="proj-tag">ESP32</span>
+        <span class="proj-tag">Bel</span>
+        <span class="proj-tag">Telegram</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj reveal" data-cat="uiux">
+    <img class="proj-thumb" src="UIUX.png" alt="KAI Access" onerror="this.style.minHeight='120px'">
+    <div class="proj-meta">
+      <p class="proj-cat">UI/UX Design</p>
+      <h2 class="proj-name">Redesain KAI Access</h2>
+      <p class="proj-desc">Studi kasus redesain UI/UX aplikasi KAI Access — dari riset pengguna, pain points, user flow baru, wireframe, hingga prototype interaktif di Figma.</p>
+      <div class="proj-tags">
+        <span class="proj-tag">Figma</span>
+        <span class="proj-tag">UX Research</span>
+        <span class="proj-tag">Prototyping</span>
+        <span class="proj-tag">User Testing</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="cta-bottom reveal">
+  <h2>Ada proyek yang ingin<br><em>kita kerjakan bersama?</em></h2>
+  <a href="kontak.html" class="btn btn-white">Hubungi Saya</a>
+</div>
+
+<footer>
+  <span>© 2025 Shofi Athifah</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
